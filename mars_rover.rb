@@ -57,6 +57,7 @@ class Rover
 	end
 end
 
+
 rover = Rover.new(0,0,"N")
 puts "Rovers current position is #{rover.x}, #{rover.y}, facing #{rover.direction}"
 rover.read_instruction("M")
@@ -65,7 +66,6 @@ rover.read_instruction("L")
 puts "Rovers current position is #{rover.x}, #{rover.y}, facing #{rover.direction}"
 rover.read_instruction("L")
 puts "Rovers current position is #{rover.x}, #{rover.y}, facing #{rover.direction}"
-
 
 
 
