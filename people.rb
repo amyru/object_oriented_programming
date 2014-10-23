@@ -32,6 +32,11 @@ chris.greeting #now that chris is assigned to name we can call greeting with .gr
 cristina = Student.new("Cristina")
 cristina.greeting
 
+chris.teach
+cristina.learn
+
+# cannot assign 'teach' method to student = cristina.teach, as student hasnt inherited the instructor.
+
 
 
 
